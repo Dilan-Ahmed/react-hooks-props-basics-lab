@@ -11,8 +11,12 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
+      <Home name="Dylan" label="Suli" city="Suli" />
+      <About
+        bio="I am cool"
+        github="http://github.com"
+        linkedin="http://github.com"
+      />
     </div>
   );
 }
