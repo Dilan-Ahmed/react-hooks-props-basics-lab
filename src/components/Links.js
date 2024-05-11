@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./About";
 
-function Links(props) {
+function Links({ gh, lnkdin }) {
   const linkGh = 
   return (
     <>
